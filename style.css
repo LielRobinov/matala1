@@ -1,0 +1,94 @@
+html{
+    scroll-behavior: smooth;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#D5C7A3 , #F6F0F0 ,#D5C7A3  ) ;
+    padding: 2%;
+    border: solid 2px white ;
+    border-radius: 20px;
+}  
+.icon{
+    width: 50px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+
+ .row > p{
+    margin-top: 0;
+
+}
+.flex_container{
+    display: flex;
+    justify-content: center;
+}
+.flex_container > div{
+    font-size: smaller;
+    margin-right: 16px;
+    
+}
+#history{
+background: linear-gradient(#D5C7A3 , #F6F0F0 ,#D5C7A3  ) ;
+      display: flex;
+      flex-direction: row;
+
+}
+#brige{
+    background: linear-gradient(#D5C7A3 , #F6F0F0 ,#D5C7A3  ) ;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+#bath{
+    background: linear-gradient(#D5C7A3 , #F6F0F0 ,#D5C7A3  ) ;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    text-align: center;
+}
+
+.img2{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 4px;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    flex-direction: row;
+}
+
+.img2:hover{
+    transition: transform 0.3s;
+    transform: scale(1.02);
+}
+
+.card{
+    width: 320px;
+    height: 200px;
+}
+
+.footer{
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+
+}
