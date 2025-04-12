@@ -1,13 +1,15 @@
-html{
+body{
     scroll-behavior: smooth;
 }
 .title{
     display: flex;
     justify-content: center;
-    background: linear-gradient(#D5C7A3 , #F6F0F0 ,#D5C7A3  ) ;
+    background: linear-gradient(#B59F88 , #F0ECE7 ,#B59F88) ;
     padding: 2%;
     border: solid 2px white ;
     border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }  
 .icon{
     width: 50px;
@@ -16,46 +18,51 @@ html{
     display: flex;
     justify-content: center;
 }
+.nav-link{
+    color: black !important;
+}
 .img{
     height: 250px;
     width: 300px;
     object-fit: cover;
 }
 
- .row > p{
-    margin-top: 0;
-
-}
 .flex_container{
     display: flex;
     justify-content: center;
 }
-.flex_container > div{
-    font-size: smaller;
-    margin-right: 16px;
-    
-}
-#history{
-background: linear-gradient(#D5C7A3 , #F6F0F0 ,#D5C7A3  ) ;
-      display: flex;
-      flex-direction: row;
 
+.flex_container > div{
+    margin-right: 16px;
+}
+
+#history{
+    background: linear-gradient(#C9B8A5 , #F0ECE7 ,#C9B8A5 ) ;
+    display: flex;
+    flex-direction: row;
+}
+.haeder-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    
+    text-align: center;
 }
 #brige{
-    background: linear-gradient(#D5C7A3 , #F6F0F0 ,#D5C7A3  ) ;
+    background: linear-gradient(#C9B8A5 , #F0ECE7 ,#C9B8A5) ;
     margin-top: 16px;
     display: flex;
     flex-direction: row;
 }
 
 #bath{
-    background: linear-gradient(#D5C7A3 , #F6F0F0 ,#D5C7A3  ) ;
+    background: linear-gradient(#C9B8A5 , #F0ECE7 ,#C9B8A5) ;
     margin-top: 16px;
     display: flex;
     flex-direction: row;
 }
 h2{
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .img2{
@@ -85,10 +92,19 @@ h2{
 }
 
 .footer{
-    background-color:lightblue;
+    background-image:url(./footer-img.webp);
+    background-size: cover;
     display: flex;
     justify-content: center;
-    color: white;
+    flex-direction: column;
     margin-top: 20px;
-
+    height: 120px;
+    text-align: center;
 }
+.footer-nav>a{
+    color: black;
+    padding: 15px;
+    
+}
+
+
