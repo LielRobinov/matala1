@@ -119,7 +119,7 @@ section .container{
 }
 
 .footer{
-    background-image:url(/footer-img.webp);
+    background-image:url(./footer-img.webp);
     background-size: cover;
     text-align: center;
     color: #5b4a37;
