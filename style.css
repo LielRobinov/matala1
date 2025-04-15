@@ -20,6 +20,7 @@ body{
 }
 
 .text{
+    text-align: right;
     opacity: 0;
     transform: translateX(-30px);
     animation: slideInText 1s ease-out forwards;
