@@ -18,6 +18,19 @@ body{
     margin-left: 10px;
     margin-bottom: 7px;
 }
+
+.text{
+    opacity: 0;
+    transform: translateX(-30px);
+    animation: slideInText 1s ease-out forwards;
+}
+@keyframes slideInText{
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 header .container{
     display: flex;
     justify-content: center;
